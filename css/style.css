@@ -1,0 +1,129 @@
+/* GLOBALS */
+
+* {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-image: url("../Pilotless\ Airplanes\ 1.jpg");
+  background-size: 60%;
+  background-position: right 0vh;
+}
+
+.boldText {
+  font-weight: bold !important;
+}
+
+.lightText {
+  font-weight: lighter !important;
+}
+
+/* END OF GLOBALS */
+
+.mainCon {
+  /* background-color: #ffffff; */
+  padding: 3vh 3vw;
+}
+
+.headerCon ul {
+  float: right;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.headerCon .logoCon {
+  display: inline-block;
+}
+
+.headerCon .logoCon a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #8773ff !important;
+  font-size: 17px;
+}
+
+.headerCon ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.headerCon ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 7.5px 20px;
+  border: 1px solid transparent;
+  border-radius: 7.5px;
+  color: #ffffff;
+}
+
+.headerCon ul li a[href="#contact"] {
+  border-color: white;
+}
+
+.formsCon {
+  padding: 10px;
+  margin-top: 15vh;
+}
+
+.formsCon .formHeaderCon {
+  letter-spacing: 0.1rem;
+}
+
+.formsCon form {
+  margin: 50px 0px;
+  width: 30%;
+}
+
+.formsCon form input,
+.formsCon form button {
+  margin: 5px;
+  border: none !important;
+  padding: 30px !important;
+  border-radius: 10px;
+  box-shadow: 0px 0px 12.5px #cccccc;
+}
+
+.formsCon form input#date,
+.formsCon form input#user {
+  display: inline-block;
+  width: 50%;
+  margin: 10px;
+}
+
+.formsCon form button#submit {
+  background-color: #8773ff;
+  background-image: linear-gradient(left, #5d97ff, #8773ff);
+  color: #ffffff;
+  padding: 15px 30px !important;
+  height: unset !important;
+}
+
+@media (max-width: 500px) {
+  body {
+    background-size: 200%;
+  }
+
+  .formsCon form {
+    width: 100%;
+    margin: 50px 0px;
+  }
+
+  .headerCon {
+    text-align: center;
+  }
+  .headerCon ul li a {
+    padding: 5px;
+    border: 0px;
+  }
+  .formHeaderCon h3 {
+    text-align: center;
+    color: #ffffff;
+  }
+  .headerCon .logoCon a {
+    color: #ffffff !important;
+  }
+}
